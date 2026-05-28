@@ -1,4 +1,6 @@
-x Administration Lab (Arch Linux + QEMU)
+# Administration Lab (Arch Linux + QEMU)
+
+---
 
 Practical Linux administration and troubleshooting lab built on Arch Linux running inside QEMU virtualization.
 
@@ -82,7 +84,7 @@ Example SSH workflow:
 
 ```bash
 ssh lida@localhost -p 2222
-'''
+```
 This transformed the VM into a remotely administered Linux server environment.
 
 # systemd Service Management
@@ -93,7 +95,7 @@ This transformed the VM into a remotely administered Linux server environment.
 - nginx
 - custom monitoring service
 
-Worked with:
+## Worked with:
 
 - service lifecycle
 - enable/start/stop/restart
@@ -102,7 +104,7 @@ Worked with:
 - restart policies
 - journal logs
 
-Example commands:
+## Example commands:
 
 - systemctl status nginx
 - systemctl restart nginx
@@ -111,7 +113,7 @@ Example commands:
 
 Installed and configured nginx web server.
 
-Tasks completed:
+## Tasks completed:
 
 - service setup
 - HTTP response testing
@@ -119,12 +121,12 @@ Tasks completed:
 - custom index page deployment
 - local connectivity testing
 
-Example verification:
+## Example verification:
 
 - curl localhost
 - Bash Automation
 
-Created custom Bash monitoring scripts for:
+## Created custom Bash monitoring scripts for:
 
 - uptime checks
 - memory usage
@@ -132,7 +134,7 @@ Created custom Bash monitoring scripts for:
 - CPU-heavy process inspection
 - service status monitoring
 
-Example tools used:
+## Example tools used:
 
 - uptime
 - free
@@ -149,13 +151,13 @@ Example tools used:
 - log generation
 - systemd service integration
 
-Features:
+## Features:
 
 - automatic startup
 - restart on failure
 - periodic system health logging
 
-Example monitored data:
+## Example monitored data:
 
 - uptime
 - RAM usage
@@ -164,7 +166,7 @@ Example monitored data:
 - sshd status
 Troubleshooting & Diagnostics
 
-Practical troubleshooting performed during the project:
+## Practical troubleshooting performed during the project:
 
 - SSH service not enabled
 - QEMU disk lock conflicts
@@ -174,7 +176,7 @@ Practical troubleshooting performed during the project:
 - debugging failed or inactive services
 - analyzing nginx warnings and logs
 
-Tools used:
+## Tools used:
 
 - journalctl
 - systemctl
@@ -182,7 +184,8 @@ Tools used:
 - ps
 - tail
 - curl
-Key Concepts Learned
+  
+## Key Concepts Learned
 - Linux service management
 - remote administration
 - daemon processes
@@ -194,9 +197,9 @@ Key Concepts Learned
 - Bash automation
 - infrastructure mindset
 
-Current Status
+# Current Status
 
-Implemented:
+## Implemented:
 
 - QEMU virtual machine
 - Arch Linux installation
@@ -206,7 +209,7 @@ Implemented:
 - monitoring scripts
 - logging and diagnostics
 
-Planned next steps:
+## Planned next steps:
 
 - Docker
 - reverse proxy configuration
