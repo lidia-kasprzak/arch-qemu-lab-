@@ -82,138 +82,138 @@ Example SSH workflow:
 
 ```bash
 ssh lida@localhost -p 2222
-
+'''
 This transformed the VM into a remotely administered Linux server environment.
 
-systemd Service Management
+# systemd Service Management
 
-Managed Linux services using systemd:
+## Managed Linux services using systemd:
 
-sshd
-nginx
-custom monitoring service
+- sshd
+- nginx
+- custom monitoring service
 
 Worked with:
 
-service lifecycle
-enable/start/stop/restart
-autostart configuration
-daemon management
-restart policies
-journal logs
+- service lifecycle
+- enable/start/stop/restart
+- autostart configuration
+- daemon management
+- restart policies
+- journal logs
 
 Example commands:
 
-systemctl status nginx
-systemctl restart nginx
-journalctl -u nginx
-nginx Web Server
+- systemctl status nginx
+- systemctl restart nginx
+- journalctl -u nginx
+- nginx Web Server
 
 Installed and configured nginx web server.
 
 Tasks completed:
 
-service setup
-HTTP response testing
-listening port verification
-custom index page deployment
-local connectivity testing
+- service setup
+- HTTP response testing
+- listening port verification
+- custom index page deployment
+- local connectivity testing
 
 Example verification:
 
-curl localhost
-Bash Automation
+- curl localhost
+- Bash Automation
 
 Created custom Bash monitoring scripts for:
 
-uptime checks
-memory usage
-disk usage
-CPU-heavy process inspection
-service status monitoring
+- uptime checks
+- memory usage
+- disk usage
+- CPU-heavy process inspection
+- service status monitoring
 
 Example tools used:
 
-uptime
-free
-df
-ps
-systemctl
-Custom Monitoring Service
+- uptime
+- free
+- df
+- ps
+- systemctl
 
-Built a custom monitoring daemon using:
+# Custom Monitoring Service
 
-Bash scripting
-infinite monitoring loop
-log generation
-systemd service integration
+## Built a custom monitoring daemon using:
+
+- Bash scripting
+- infinite monitoring loop
+- log generation
+- systemd service integration
 
 Features:
 
-automatic startup
-restart on failure
-periodic system health logging
+- automatic startup
+- restart on failure
+- periodic system health logging
 
 Example monitored data:
 
-uptime
-RAM usage
-disk usage
-nginx status
-sshd status
+- uptime
+- RAM usage
+- disk usage
+- nginx status
+- sshd status
 Troubleshooting & Diagnostics
 
 Practical troubleshooting performed during the project:
 
-SSH service not enabled
-QEMU disk lock conflicts
-booting back into installation ISO
-VM networking limitations caused by NAT
-service verification using ss, systemctl, and journalctl
-debugging failed or inactive services
-analyzing nginx warnings and logs
+- SSH service not enabled
+- QEMU disk lock conflicts
+- booting back into installation ISO
+- VM networking limitations caused by NAT
+- service verification using ss, systemctl, and journalctl
+- debugging failed or inactive services
+- analyzing nginx warnings and logs
 
 Tools used:
 
-journalctl
-systemctl
-ss
-ps
-tail
-curl
+- journalctl
+- systemctl
+- ss
+- ps
+- tail
+- curl
 Key Concepts Learned
-Linux service management
-remote administration
-daemon processes
-system logging
-networking fundamentals
-process inspection
-Linux filesystem structure
-operational troubleshooting
-Bash automation
-infrastructure mindset
+- Linux service management
+- remote administration
+- daemon processes
+- system logging
+- networking fundamentals
+- process inspection
+- Linux filesystem structure
+- operational troubleshooting
+- Bash automation
+- infrastructure mindset
+
 Current Status
 
 Implemented:
 
-QEMU virtual machine
-Arch Linux installation
-SSH remote access
-nginx web server
-custom systemd services
-monitoring scripts
-logging and diagnostics
+- QEMU virtual machine
+- Arch Linux installation
+- SSH remote access
+- nginx web server
+- custom systemd services
+- monitoring scripts
+- logging and diagnostics
 
 Planned next steps:
 
-Docker
-reverse proxy configuration
-Grafana & Prometheus
-advanced monitoring
-backup automation
-firewall configuration
-infrastructure automation
+- Docker
+- reverse proxy configuration
+- Grafana & Prometheus
+- advanced monitoring
+- backup automation
+- firewall configuration
+- infrastructure automation
 
 
-
-Lidia Kasprzak
